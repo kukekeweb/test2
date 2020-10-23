@@ -1,6 +1,4 @@
-<audio src="おばけのウケねらい.mp3" autoplay loop>
-  あなたのブラウザーは <code>audio</code>要素をサポートしていません。
-</audio>
+
 
 
 //音声の再生
