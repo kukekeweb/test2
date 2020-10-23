@@ -1,9 +1,10 @@
-function play_se(){
-    var おばけのウケねらい = new Audio('おばけのウケねらい.mp3');
-    おばけのウケねらい.play();
-}
+<audio src="おばけのウケねらい.mp3" autoplay loop>
+  あなたのブラウザーは <code>audio</code>要素をサポートしていません。
+</audio>
 
 
-$(function(){
-    $('#2曲目').click(play_se);
-});
+//音声の再生
+document.getElementById('audio').play();
+
+//音声の一時停止
+document.getElementById('audio').pause();
